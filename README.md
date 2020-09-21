@@ -5,9 +5,9 @@ This repo contains the GAN systhesis for MNIST dataset. <br>
 2. After passing the generated image to Discriminator, the Generator takes feedback from Discriminator. <br>
 
 <b>Dataset:</b>60,000 training small square 28×28 pixel grayscale images of handwritten single digits between 0 and 9 <br>
-           training set: 60000
-           testing set: 10000
-           batch size: 100
+           training set: 60000<br>
+           testing set: 10000<br>
+           batch size: 100 <br>
 <b>Model Architecture:</b> <br>
 Generator: FC layers + leaky ReLu <br>
 Discriminator: FC layers + leaky ReLu + Dropout (0.3) <br>
